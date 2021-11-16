@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+#container{
+    height: 700px;
+    width: 100vw;
+    background-image: url(./natalie-sysko-AIV6U3yK07c-unsplash1.jpg);
+    background-size:contain;
+    background:cover;
+}
+navbar{
+    background: whitesmoke;
+}
+
+navbar ul li{
+    font-family: 'Varela Round', sans-serif;
+    display: inline-block;
+    position: relative;
+    margin-left:40px;
+    padding: 19px;
+}
+
+navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+navbar li:hover{
+    border: 2px solid black;
+    padding:3px;
+    transition: padding .5s ease;
+    border-radius: 5px;
+}
+section{
+    margin-top: 250px;
+    margin-left: 85px;
+    display: flex;
+}
+
+.left{
+    width: 75vw;
+    height: 90vh;
+    display: inline-block;
+}
+.left p{
+    color: white;
+}
+.left h1{
+    color: white;
+    font-size: 3rem;
+}
+section button{
+    background-color:white;
+    border: none;
+    color: black;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 40px;
+    margin: 60px;
+}
+.right{
+    width:10vw;
+    height: 40vh;
+    margin-top: -70px;
+    position: relative;
+    margin-left: -80px;
+    text-align: center;
+    justify-content: center;
+}
+.right ul{
+    list-style-type: none;
+}
+.right  ul li i{
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 12px;
+    margin-left: 120px;
+    justify-content: center;
+}
